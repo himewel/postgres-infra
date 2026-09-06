@@ -1,0 +1,9 @@
+pg_host            = "localhost"
+pg_port            = 5432
+pg_database        = "postgres"
+pg_username        = "admin"
+pg_password        = "admin"
+pg_sslmode         = "disable"
+app_database_name  = "app"
+app_role_name      = "app_user"
+app_role_password  = "app_user"
