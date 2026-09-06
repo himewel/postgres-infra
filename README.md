@@ -6,7 +6,7 @@ Docker Compose PostgreSQL (Alpine) plus Terraform management via [`cyrilgdn/post
 
 - `docker-compose.yml` — `postgres:16-alpine`
 - `postgres/init/` — creates the `admin` superuser on first boot
-- `cyrilgdn/` — Terraform project that connects as `admin` and manages DB objects
+- `infra/` — Terraform project that connects as `admin` and manages DB objects
 
 ## Quick start
 
@@ -14,7 +14,7 @@ Docker Compose PostgreSQL (Alpine) plus Terraform management via [`cyrilgdn/post
 cp .env.example .env
 docker compose up -d
 
-cd cyrilgdn
+cd infra
 cp terraform.tfvars.example terraform.tfvars
 terraform init
 terraform apply

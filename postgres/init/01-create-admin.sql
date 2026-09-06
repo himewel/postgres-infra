@@ -16,4 +16,4 @@ BEGIN
 END
 $$;
 
-COMMENT ON ROLE admin IS 'Local Docker admin superuser for Terraform (cyrilgdn/postgresql) management';
+COMMENT ON ROLE admin IS 'Local Docker admin superuser for Terraform management';

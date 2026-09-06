@@ -1,5 +1,6 @@
-# Manage PostgreSQL objects on the Docker Compose image via cyrilgdn/postgresql,
-# authenticating as the admin superuser created in postgres/init.
+# Manage PostgreSQL objects on the Docker Compose image via Terraform
+# (cyrilgdn/postgresql provider), authenticating as the admin superuser
+# created in postgres/init.
 
 resource "postgresql_database" "app" {
   name  = var.app_database_name
