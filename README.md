@@ -1,4 +1,4 @@
-# postgres-mngr
+# postgres-infra
 
 Docker Compose PostgreSQL (Alpine) plus Terraform management via [`cyrilgdn/postgresql`](https://registry.terraform.io/providers/cyrilgdn/postgresql).
 
